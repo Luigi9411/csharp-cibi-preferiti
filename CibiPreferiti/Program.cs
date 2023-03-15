@@ -30,5 +30,6 @@ else
     Console.WriteLine(food[middleIndex]);
 }
 
+Console.ReadLine();
 
 
