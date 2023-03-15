@@ -19,5 +19,6 @@ Console.WriteLine(food[9]);
 Console.WriteLine("Cibi di metà classifica:");
 Console.WriteLine(food[5]);
 Console.WriteLine(food[6]);
+Console.ReadLine();
 
 
