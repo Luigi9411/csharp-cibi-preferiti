@@ -16,9 +16,19 @@ for (var i = 0; i < food.Length; i++)
 Console.WriteLine("Ultima posizione in classifica:");
 Console.WriteLine(food[9]);
 
-Console.WriteLine("Cibi di metà classifica:");
-Console.WriteLine(food[5]);
-Console.WriteLine(food[6]);
-Console.ReadLine();
+if (food.Length % 2 == 0)
+{
+    int middleIndex = food.Length / 2;
+    Console.WriteLine("Cibi di metà classifica:");
+    Console.WriteLine(food[middleIndex - 1]);
+    Console.WriteLine(food[middleIndex]);
+}
+else
+{
+    int middleIndex = food.Length / 2;
+    Console.WriteLine("Cibo di metà classifica:");
+    Console.WriteLine(food[middleIndex]);
+}
+
 
 
