@@ -5,7 +5,7 @@ Console.WriteLine(food.Length);
 
 for (var i = 0; i < food.Length; i++)
 {
-    Console.Write(i);
+    Console.Write(i+1);
     Console.Write(") ");
     Console.WriteLine( food[i]);
 };
