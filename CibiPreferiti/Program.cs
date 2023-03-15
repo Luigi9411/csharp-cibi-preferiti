@@ -6,7 +6,8 @@ Console.WriteLine(food.Length);
 for (var i = 0; i < food.Length; i++)
 {
     Console.Write(i);
-    Console.WriteLine( food[i].PadLeft(20));
+    Console.Write(") ");
+    Console.WriteLine( food[i]);
 };
 
     Console.WriteLine("Il cibo preferito è:");
