@@ -1,4 +1,6 @@
 ﻿string[] food = { "Pizza", "Pasta", "Gelato", "Polpette", "Frittura di pesce", "Lenticchie", "Fagioli", "Spiedini", "Salmone", "Pane" };
+
+Console.Write("Lunghezza della classifica:");
 Console.WriteLine(food.Length);
 
 for (var i = 0; i < food.Length; i++)
